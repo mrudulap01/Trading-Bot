@@ -128,13 +128,14 @@ streamlit run app.py
 ```
 
 ## Screenshots
-### Market Dashboard
-![Market Dashboard](screenshots/dashboard.png)
 
-### Order Execution Terminal
-![Market Order](screenshots/market_order.png)
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
 
-### Order History & Analytics
+### Trade Screen
+![Trade Screen](screenshots/market_order.png)
+
+### Order History
 ![Order History](screenshots/order_history.png)
 
 ## Logging
