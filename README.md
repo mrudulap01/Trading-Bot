@@ -5,6 +5,15 @@ The Binance Futures Trading Terminal is a professional-grade, locally-hosted alg
 
 This project emphasizes clean architecture, strong typing, and comprehensive error handling to ensure reliable trade execution and portfolio monitoring.
 
+## Assumptions
+- Application runs on Binance Futures Testnet.
+- Users must generate their own Testnet API keys.
+- Credentials are stored in `.env`.
+- Internet connection is required.
+- Stop-Limit support may vary on Testnet.
+- Streamlit UI is intended for local execution.
+- No real funds are used.
+
 ## Features
 - **Credential Verification**: Securely test and validate your API keys and Futures permissions before risking capital or encountering API rejections.
 - **Market Orders**: Instantly execute trades at the best available market price.
@@ -129,7 +138,11 @@ streamlit run app.py
 ![Order History](screenshots/order_history.png)
 
 ## Logging
-All system events, validation checks, and API responses are securely logged using a rotating file handler located at `logs/trading.log`. This file ensures long-term traceability and simplifies debugging for complex trading sequences without cluttering the console output.
+- `logs/trading.log` contains the complete runtime history, capturing detailed lifecycle events of every order.
+- `logs/sample_submission.log` contains a clean sample log demonstrating:
+  - Credential verification success
+  - MARKET order execution
+  - LIMIT order execution
 
 ## Security
 - **.env Handling**: API keys are injected via environment variables using `python-dotenv`. The `.env` file is explicitly ignored in `.gitignore` to prevent accidental credential leakage.
