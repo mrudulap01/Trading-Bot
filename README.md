@@ -142,3 +142,12 @@ All system events, validation checks, and API responses are securely logged usin
 - **Unit & Integration Testing**: Achieve high test coverage using `pytest` and mocked API responses.
 - **Dockerization**: Provide a `Dockerfile` and `docker-compose.yml` for isolated deployment.
 - **Multi-Exchange Support**: Abstract the client interface to support additional exchanges seamlessly.
+
+## Assumptions
+* The application is intended to run against the Binance Futures Testnet environment.
+* Users must create their own Binance Futures Testnet account and generate valid API credentials.
+* API credentials are stored securely in a local `.env` file and are never committed to source control.
+* The application assumes an active internet connection for all Binance API interactions.
+* Stop-Limit order support may vary depending on Binance Futures Testnet account capabilities and exchange restrictions.
+* The Streamlit dashboard is designed for local execution and demonstration purposes.
+* All trades executed through this project are performed on the Binance Testnet and do not involve real funds.
