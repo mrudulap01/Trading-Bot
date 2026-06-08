@@ -130,13 +130,13 @@ streamlit run app.py
 ## Screenshots
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/dashboard.PNG)
 
 ### Trade Screen
-![Trade Screen](screenshots/market_order.png)
+![Trade Screen](screenshots/trade.PNG)
 
 ### Order History
-![Order History](screenshots/order_history.png)
+![Order History](screenshots/order%20history.PNG)
 
 ## Logging
 - `logs/trading.log` contains the complete runtime history, capturing detailed lifecycle events of every order.
