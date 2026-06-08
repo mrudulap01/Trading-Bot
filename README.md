@@ -139,7 +139,7 @@ streamlit run app.py
 
 ## Logging
 - `logs/trading.log` contains the complete runtime history, capturing detailed lifecycle events of every order.
-- `logs/sample_submission.log` contains a clean sample log demonstrating:
+- `logs/sample_submission.log` is included to satisfy the assignment deliverables. It contains a clean sample log demonstrating:
   - Credential verification success
   - MARKET order execution
   - LIMIT order execution

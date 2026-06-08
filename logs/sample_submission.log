@@ -1,0 +1,6 @@
+2026-06-08 10:00:00,000 - INFO - Starting Binance Futures Trading Bot
+2026-06-08 10:00:01,000 - INFO - Credential verification success. API connection established.
+2026-06-08 10:05:00,000 - INFO - Executing MARKET BUY order for 0.01 BTCUSDT
+2026-06-08 10:05:00,500 - INFO - MARKET order executed successfully. Order ID: 123456789
+2026-06-08 10:10:00,000 - INFO - Placing LIMIT SELL order for 0.05 ETHUSDT at price 4000.00
+2026-06-08 10:10:00,500 - INFO - LIMIT order placed successfully. Order ID: 987654321

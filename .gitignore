@@ -1,4 +1,5 @@
 .env
-logs/
+logs/*
+!logs/sample_submission.log
 __pycache__/
 *.pyc
