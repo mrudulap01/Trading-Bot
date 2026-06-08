@@ -1,0 +1,6 @@
+python-binance
+python-dotenv
+rich
+streamlit
+plotly
+pandas
